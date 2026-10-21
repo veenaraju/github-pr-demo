@@ -4,9 +4,9 @@ inventory = {
     "Keyboard": 15
 }
 
-def show_inventory():
+def display_inventory():
     print("Current Inventory:")
     for product, quantity in inventory.items():
         print(f"{product}: {quantity}")
 
-show_inventory()
+display_inventory()
